@@ -18,7 +18,7 @@ function getBinary() {
     const version = require('../package.json').version;
     const url = `https://github.com/skyneticist/feo/releases/download/v${version}/feo-${platform}.tar.gz`;
     const name = 'feo';
-    return new Binary(url, { name });
+    return new Binary({ name }, url);
 }
 
 module.exports = getBinary;
