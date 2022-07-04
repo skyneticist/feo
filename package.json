@@ -1,0 +1,30 @@
+{
+    "name": "feo",
+    "version": "0.0.1",
+    "description": "command line tool for developers -- mostly git shortcuts",
+    "main": "main.rs",
+    "bin": {
+        "feo": "./npm/run.js"
+    },
+    "scripts": {
+        "postinstall": "node npm/install.js",
+        "preinstall": "node npm/uninstall.js"
+    },
+    "files": [
+        "npm/**/*"
+    ],
+    "keywords": [
+        "rust",
+        "cli",
+        "npm",
+        "crust",
+        "golee",
+        "git",
+        "github"
+    ],
+    "author": "teslatickles@hunterhartline <hunterhartline@gmail.com> (https://github.com/teslatickles)",
+    "license": "ISC",
+    "devDependencies": {
+        "binary-install": "^1.0.1"
+    }
+}
