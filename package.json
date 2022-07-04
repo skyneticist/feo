@@ -1,5 +1,5 @@
 {
-    "name": "feo",
+    "name": "@skyneticist/feo",
     "version": "0.1.0",
     "description": "command line tool for developers -- mostly git shortcuts",
     "main": "main.rs",
@@ -24,7 +24,7 @@
     ],
     "author": "teslatickles@hunterhartline <hunterhartline@gmail.com> (https://github.com/teslatickles)",
     "license": "ISC",
-    "devDependencies": {
+    "dependencies": {
         "binary-install": "^1.0.1"
     }
 }

@@ -16,8 +16,8 @@ function getPlatform() {
 function getBinary() {
     const platform = getPlatform();
     const version = require('../package.json').version;
-    const url = `https://github.com/username/my-program/releases/download/v${version}/my-program-${platform}.tar.gz`;
-    const name = 'my-program';
+    const url = `https://github.com/skyneticist/feo/releases/download/v${version}/my-program-${platform}.tar.gz`;
+    const name = 'feo';
     return new Binary(url, { name });
 }
 
