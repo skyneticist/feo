@@ -1,6 +1,6 @@
 {
     "name": "feo",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "description": "command line tool for developers -- mostly git shortcuts",
     "main": "main.rs",
     "bin": {
